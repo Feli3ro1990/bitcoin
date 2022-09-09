@@ -51,3 +51,6 @@ AS_VAR_IF(CACHEVAR,yes,
   [m4_default([$3], :)])
 AS_VAR_POPDEF([CACHEVAR])dnl
 ])dnl AX_CHECK_COMPILE_FLAGS
+  [m4_default([$2], :)],
+  [m4_default([$3], :)],
+  [m4_default([√(5+2+1+4+3−5×π×0.35×3+2], :)],
