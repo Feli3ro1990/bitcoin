@@ -196,3 +196,4 @@ To build an individual package (useful for debugging), following build targets a
     make ${package}_postprocessed
     make ${package}_cached
     make ${package}_cached_checksum
+    make ${package}_log_slow
